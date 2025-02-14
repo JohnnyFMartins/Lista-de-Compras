@@ -134,13 +134,36 @@ li input {
 @media(max-width: 800px) {
     .inputGroup {
         flex-direction:  column;
+        align-items: center;
     }
 
     #item {
-        width: 96%;
+        width: 95%;
     }
 
     #quantidade {
-        width: 96%;
+        width: 95%;
+    }
+
+    #add {
+        width: 95%;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .actions {
+        display: flex;
+       justify-content: center;
+
+    }
+
+    .clean {
+        width: 47%;
+    }
+
+    .clean-buy {
+        width: 47%;
     }
 }
